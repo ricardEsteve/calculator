@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="calculator.css">
+  
+</head>
+
+<body>
+  <div class="calculator">
+    <form action="#" name="calculator" id="calculator">
+      <p id="textScreen">0</p>
+      <p>
+        <input type="button" class="long" value="Retr" onclick="retr()"/>
+        <input type="button" class="long" value="CE" onclick="partialDel()"/>
+        <input type="button" class="long" value="C" onclick="totalDel()"/>
+      </p>
+      <p>
+        <input type="button" class="short" value="7" onclick="number('7')" />
+        <input type="button" class="short" value="8" onclick="number('8')"/>
+        <input type="button" class="short" value="9" onclick="number('9')"/>
+        <input type="button" class="short" value="/" onclick="operation('/')"/>
+        <input type="button" class="short" value="Root" onclick="root()"/>
+
+      </p>
+      <p>
+        <input type="button" class="short" value="4" onclick="number('4')"/>
+        <input type="button" class="short" value="5" onclick="number('5')"/>
+        <input type="button" class="short" value="6" onclick="number('6')"/>
+        <input type="button" class="short" value="*" onclick="operation('*')">
+        <input type="button" class="short" value="%" onclick="perCent()"/>
+      </p>
+      <p>
+        <input type="button" class="short" value="1" onclick="number('1')"/>
+        <input type="button" class="short" value="2" onclick="number('2')"/>
+        <input type="button" class="short" value="3" onclick="number('3')"/>
+        <input type="button" class="short" value="-" onclick="operation('-')"/>
+        <input type="button" class="short" value="1/x" onclick="inverse()"/>
+      </p>
+      <p>
+        <input type="button" class="short" value="0"  onclick="number('0')"/>
+        <input type="button" class="short" value="+/-" onclick="oppo()"/>
+        <input type="button" class="short" value="." onclick="number('.')"/>
+        <input type="button" class="short" value="+" onclick="operation('+')"/>
+        <input type="button" class="short" value="=" onclick="equal()"/>
+      </p>
+
+
+    </form>
+
+
+  </div>
+
+  <script src="calculator.js"></script>
+</body>
+
+</html>

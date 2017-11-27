@@ -1,0 +1,50 @@
+body {
+  background: url(calc3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.calculator {
+  border: 3px darkblue ridge;
+  width: 250px;
+  text-align: center;
+  background-color: blue;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
+#textScreen {
+  width: 180px;
+  border: 2px white solid;
+  text-align: right;
+  position: relative;
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  font-family: "courier new";
+  overflow: hidden;
+}
+
+.calculator[type=button] {
+  width: 40px;
+  height: 40px;
+  
+  
+}
+
+.calculator input.long {
+  color: red;
+  width: 70px;
+  height: 50px;
+    border-radius: 10px;
+
+}
+
+.calculator input.short {
+  width: 40px;
+  height: 30px;
+    border-radius: 10px;
+
+}
